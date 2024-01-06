@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25826048'))
+API_ID = int(environ.get('API_ID', '20574660'))
 API_HASH = environ.get('API_HASH', 'b486ee260537697fdfc56b2b61cbc049')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6926287675:AAHBOF8FCXVSi64-Zl6Mqa4RLPSYdcrQml8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -53,7 +53,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "bikashxd")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'flashlinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'bb88009f2e84b9219d1a6aca26d67774740ca916')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
